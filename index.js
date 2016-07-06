@@ -1,7 +1,7 @@
 function externalLoader(url, callback) {
     var script = null;
 
-    if (url.indexOf('js') !== -1) {
+    if (url.slice(url.lastIndexOf('.') + 1, url.length) === 'js') {
         script = document.createElement('script');
         script.type = 'text/javascript';
         script.src = url;
