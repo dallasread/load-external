@@ -1,6 +1,6 @@
 {
   "name": "load-external",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Easily load external js and css files (cross-browser).",
   "main": "index.js",
   "scripts": {
